@@ -277,7 +277,7 @@ season_annual = df.groupby(['연도', '계절'])['평균기온(℃)'].mean().res
 season_colors = {'봄': '#34d399', '여름': '#f87171', '가을': '#fbbf24', '겨울': '#818cf8'}
 
 fig4 = make_subplots(rows=2, cols=2,
-                      subplot_titles=['🌸 봄 (3-5월)', '☀️ 여름 (6-8월)', '🍂 가을 (9-11월)', '❄️ 겨울 (12-2월)'),
+                      subplot_titles=['🌸 봄 (3-5월)', '☀️ 여름 (6-8월)', '🍂 가을 (9-11월)', '❄️ 겨울 (12-2월)'],
                       vertical_spacing=0.12, horizontal_spacing=0.08)
 
 season_pos = {'봄': (1,1), '여름': (1,2), '가을': (2,1), '겨울': (2,2)}
